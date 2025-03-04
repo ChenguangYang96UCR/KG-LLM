@@ -4,7 +4,7 @@ from collections import deque
 import csv
 import os
 
-input_file = open(r"./WN18RR/train2id.txt", "r")
+input_file = open("./WF/test/test2id.txt", "r")
 
 # total number of lines
 number = int(input_file.readline())
@@ -25,14 +25,14 @@ for i in range(number):
 node_list = list(nodes)
 relation2id = {}
 
-with open(r"./WN18RR/relation2id.txt", "r") as file:
+with open("./WF/relation2id.txt", "r") as file:
     relations = int(file.readline())
     for line in file:
         relation, relation_id = line.strip().split("\t")
         relation2id[int(relation_id)] = relation
 
 entity2id = {}
-with open(r"./WN18RR/entity2id.txt", "r") as file:
+with open("./WF/test/entity2id.txt", "r") as file:
     file.readline()  # Skip the first line (number of entities)
     for line in file:
         entity_name, entity_id = line.strip().split("\t")
@@ -72,7 +72,7 @@ def convert_path_to_natural_language(path):
         node1 = path[i]
         node2 = path[i + 1]
         relation = graph[node1][node2]
-        r = relation2id[relation].replace('_', ' ')
+        r = relation2id[relation]
         node1_entity = entity2id[int(node1)]
         node2_entity = entity2id[int(node2)]
         input_text += f'node_{node1} has relation_{relation} with node_{node2}. '

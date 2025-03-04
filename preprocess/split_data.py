@@ -42,7 +42,7 @@ train_neg, val_neg = train_test_split(train_neg, test_size=0.2, random_state=42)
 
 val_data = pd.concat([val_pos, val_neg]).sample(frac=1, random_state=42).reset_index(drop=True)
 
-train_data.to_csv("train_data.csv", index=False)
+# train_data.to_csv("train_data.csv", index=False)
 val_data.to_csv("val_data.csv", index=False)
 
 test_data['num_nodes'] = test_data['input_text'].apply(lambda x: x.count('node_') // 2 + 1)
