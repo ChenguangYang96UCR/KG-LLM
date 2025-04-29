@@ -1,0 +1,104 @@
+ocean currents	global patterns	has connection	correct
+wildfire	tracer	has connection	correct
+coral reef	wildfire	has connection	not correct
+air pollution	warning and protecting the population of Maui and the Hawaiian Islands	has no connection	not correct
+coral reef	remobilization	has no connection	correct
+coral reef	fire risk	has connection	correct
+fire risk	wildfire	has connection	correct
+currents	carbon dioxide	has connection	correct
+insights gained in studying this event	currents	has no connection	correct
+scientific work	meteorological ingredients required to produce such an unusual catastrophic event	has no connection	correct
+shoreline	coral reef	has connection	not correct
+study	describe the meteorological conditions and predictability of the August 2023 Maui wildfires	has no connection	correct
+trace gas	substance	has connection	correct
+coral reef	fire risk	has connection	not correct
+urban development	shoreline	has connection	correct
+coral reef	wildfire	has connection	correct
+global patterns	global-scale winds and currents	has connection	correct
+trace gas	wildfire	has no connection	correct
+wildfire smoke	carbon dioxide	has no connection	correct
+global patterns	winds	has connection	correct
+urban development	unprecedented	has connection	not correct
+air pollution	smoke	has no connection	correct
+shoreline development	temporal scales	has no connection	correct
+shoreline	urban development	has connection	correct
+tracer	fire risk	has no connection	not correct
+ocean currents	global patterns	has connection	not correct
+urban development	physical parameters	has connection	correct
+coral reef	urban development	has connection	correct
+wildfire	temporal scales	has no connection	correct
+tracer	Maui	has no connection	correct
+fire risk	project	has connection	not correct
+trace gas	this study	has no connection	not correct
+tracer	predictability of weather prediction models for such an event	has no connection	correct
+study	warning and protecting the population of Maui and the Hawaiian Islands	has no connection	correct
+findings of this project	trace gas	has no connection	not correct
+coral reef	urban development	has connection	correct
+fire risk	urban development	has connection	not correct
+scientific work	innovations	has no connection	not correct
+air pollution	warning and protecting the population of Maui and the Hawaiian Islands	has no connection	not correct
+insights gained in studying this event	enhancing adaptation/land-management decisions	has no connection	not correct
+insights gained in studying this event	climate change adaptation	has no connection	not correct
+tracer	Lahaina wildfire	has no connection	not correct
+shoreline development	metals	has connection	not correct
+shoreline development	wildfire	has connection	not correct
+plume	required model resolution and physics for skillful predictions	has no connection	correct
+this study	prior cases of wildfire and strong winds across western Maui	has connection	not correct
+shoreline	coral reef	has connection	not correct
+Maui fires	coral metabolism	has no connection	not correct
+tracer	substance	has connection	not correct
+global patterns	winds	has connection	not correct
+ocean currents	reef-scale carbon cycle	has no connection	correct
+shoreline development	temporal scales	has no connection	correct
+plume	findings of this project	has no connection	not correct
+shoreline development	temporal scales	has no connection	correct
+this project	trace gas	has no connection	not correct
+coral reef	wildfire	has connection	correct
+urban development	fire risk	has connection	not correct
+urban development	rain events	has connection	correct
+trace gas	substance	has connection	not correct
+tracer	substance	has connection	correct
+tracer	trace gas	has no connection	correct
+innovations	interdisciplinary	has connection	not correct
+prior cases of wildfire and strong winds across western Maui	role of Hurricane Dora in the local weather	has no connection	correct
+global patterns	warning the population	has no connection	not correct
+global patterns	winds	has connection	correct
+air pollution	land-use change	has no connection	correct
+wildfire smoke	developing and applying theory	has no connection	not correct
+urban development	physical parameters	has connection	not correct
+global patterns	global-scale winds and currents	has connection	correct
+global patterns	winds	has connection	not correct
+trace gas	this study	has no connection	not correct
+coral reef	fire risk	has connection	correct
+global patterns	Maui fires	has no connection	not correct
+this study	tracer	has no connection	correct
+coral reef	wildfire	has connection	correct
+tracer	trace gas	has no connection	not correct
+air pollution	land-use change	has no connection	correct
+shoreline	coral reef	has connection	not correct
+global patterns	winds	has connection	not correct
+coral reef	remobilization	has no connection	not correct
+carbon dioxide	scientific work	has no connection	correct
+fire risk	coral reef	has connection	not correct
+trace gas	substance	has connection	correct
+findings of this project	guiding decisions regarding controlling power infrastructure	has connection	not correct
+urban development	toxic compounds	has connection	correct
+scientific work	meteorological ingredients required to produce such an unusual catastrophic event	has no connection	not correct
+study	warning and protecting the population of Maui and the Hawaiian Islands	has no connection	not correct
+prior cases of wildfire and strong winds across western Maui	role of Hurricane Dora in the local weather	has no connection	correct
+shoreline development	metals	has connection	correct
+urban development	wildfire	has connection	correct
+fire risk	urban development	has connection	not correct
+tracer	fire risk	has no connection	correct
+fire risk	urban development	has connection	correct
+coral reef	wildfire	has connection	correct
+this study	global patterns	has no connection	correct
+innovations	interdisciplinary	has connection	correct
+fire risk	wildfire	has connection	correct
+coral reef	metals	has connection	correct
+temporal scales	air pollution	has no connection	not correct
+carbon dioxide	trace gas	has connection	not correct
+
+
+Accuracy: 0.550
+F1 Score: 0.571

@@ -323,8 +323,8 @@ with open("test_data.csv", mode="w", newline='') as tra:
 
 positive_df = pd.read_csv('test_positive_data.csv')
 negative_df = pd.read_csv('test_negative_data.csv')
-train_pos, test_pos = train_test_split(positive_df,train_size=0.005, test_size=0.995, random_state=42)
-train_neg, test_neg = train_test_split(negative_df,train_size=0.005, test_size=0.995, random_state=42)
+train_pos, test_pos = train_test_split(positive_df,train_size=0.1, test_size=0.9, random_state=42)
+train_neg, test_neg = train_test_split(negative_df,train_size=0.1, test_size=0.9, random_state=42)
 test_df = pd.concat([test_pos, test_neg])
 test_df = test_df.sample(frac=1, random_state=42).reset_index(drop=True)
 test_df.to_csv('test.csv', index=False)
