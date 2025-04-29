@@ -355,6 +355,7 @@ def main(model_name, train_file, valid_file, entity_file, relation_file):
         train(model, tokenizer, train_dataset, valid_dataset, output_dir)
 
 if __name__ == "__main__":
+    torch.cuda.empty_cache()
     parser = argparse.ArgumentParser(description="Script for fine-tuning KGLLM models")
     parser.add_argument("--model_name", type=str, default="flan-t5", help="which model: flan-t5, llama2, gemma")
     parser.add_argument("--train_file", type=str, default=r"train_data.csv", help="Path to the train CSV file")

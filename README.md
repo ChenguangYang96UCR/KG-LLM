@@ -68,6 +68,7 @@ We conduct experiments over *two* real-world datasets, WN18RR and NELL-995, whic
 2. Split Data:
    ```python
    python split_data.py
+   python KGLLM_preprocess.py
    ```
    - Check Output: After running the script, you should find the training data, validation data, testing data.
 
@@ -111,7 +112,7 @@ optim="paged_adamw_8bit",
 ```
   > Start Finetune:
 ```python
-   python train.py
+   python train/train.py --model_name llama2 --train_file train_data.csv --valid_file val_data.csv --entity_file WF/entity2id.txt --relation_file WF/relation2id.txt
 ```
 
 3. Model Training Completed
