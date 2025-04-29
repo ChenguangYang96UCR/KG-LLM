@@ -10,6 +10,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, set_seed, Trainer,
     DataCollatorForLanguageModeling, Trainer, TrainingArguments
 import utils
 
+# ! Clear gpu storage
+torch.cuda.empty_cache()
 
 def create_bnb_config():
     bnb_config = BitsAndBytesConfig(
@@ -108,8 +110,8 @@ accuracy = accurate_count / min(len(df), test_limit)
 print(f'Accuracy: {accuracy:.3f}')
 print(f'F1 Score: {f1:.3f}')
 
-node_id2hash_data = np.load('./WF/test/node_id.npy', allow_pickle=True).item()
-node_hash2name_data = np.load('./WF/test/hash_node.npy', allow_pickle=True).item()
+node_id2hash_data = np.load('./WF/node_id.npy', allow_pickle=True).item()
+node_hash2name_data = np.load('./WF/hash_node.npy', allow_pickle=True).item()
 
 with open('./prediction/prediction_result.txt', 'a', encoding='utf-8') as file:
     index = 0

@@ -32,7 +32,7 @@ with open("./WF/relation2id.txt", "r") as file:
         relation2id[int(relation_id)] = relation
 
 entity2id = {}
-with open("./WF/test/entity2id.txt", "r") as file:
+with open("./WF/entity2id.txt", "r") as file:
     file.readline()  # Skip the first line (number of entities)
     for line in file:
         entity_name, entity_id = line.strip().split("\t")
